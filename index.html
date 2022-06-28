@@ -10,19 +10,31 @@
   <body>
     <div id="container">
       <div id="header">
-        <div class="grid-row">
-          <input type="text" placeholder="Search..." /><button>Find</button>
-          <button>alert</button>
-          <img src="" alt="" /> pfp
-          <a href="">Full Name</a>
+        <div id="search-container" class="grid-row">
+          <button id="search-button"></button>
+          <input type="text" placeholder="Search..." id="search-bar" />
+          <br />
+          <button id="alert-button"></button>
+          <img
+            class="pfp"
+            src="https://i.pinimg.com/originals/9a/83/70/9a8370e96678c9614a073d28aacba80b.png"
+            alt=""
+          />
+          <a href="">Joshua M Guillen</a>
         </div>
         <div class="grid-row">
-          <img src="" alt="" />pfp
-          <div>
-            <p>Hi there,</p>
-            <strong>Full name</strong>
+          <div id="greeting">
+            <img
+              class="pfp"
+              src="https://i.pinimg.com/originals/9a/83/70/9a8370e96678c9614a073d28aacba80b.png"
+              alt=""
+            />
+            <div>
+              <p>Hi there,</p>
+              <strong>Joshua Guillen</strong>
+            </div>
           </div>
-          <div class="grid-row">
+          <div id="header-buttons" class="grid-row">
             <button>New</button><button>Upload</button><button>Share</button>
           </div>
         </div>
@@ -34,65 +46,108 @@
             >Dashboard</span
           >
         </div>
-        <div id="nav-links-container">
-          <ul>
-            <li><img src="svg/home-circle.svg" alt="" /><a href="">Home</a></li>
-            <li>
-              <img src="svg/account-circle.svg" alt="" /><a href="">Profile</a>
-            </li>
-            <li>
-              <img src="svg/message-processing.svg" alt="" /><a href=""
-                >Messages</a
-              >
-            </li>
-            <li><img src="svg/history.svg" alt="" /><a href="">History</a></li>
-            <li><img src="svg/typewriter.svg" alt="" /><a href="">Tasks</a></li>
-            <li>
-              <img src="svg/account-group.svg" alt="" /><a href=""
-                >Communities</a
-              >
-            </li>
-          </ul>
-          <ul>
-            <li><img src="svg/cog.svg" alt="" /><a href="">Settings</a></li>
-            <li>
-              <img src="svg/help-circle.svg" alt="" /><a href="">Support</a>
-            </li>
-            <li>
-              <img src="svg/shield-sword.svg" alt="" /><a href="">Security</a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li><img src="svg/home-circle.svg" alt="" /><a href="">Home</a></li>
+          <li>
+            <img src="svg/account-circle.svg" alt="" /><a href="">Profile</a>
+          </li>
+          <li>
+            <img src="svg/message-processing.svg" alt="" /><a href=""
+              >Messages</a
+            >
+          </li>
+          <li><img src="svg/history.svg" alt="" /><a href="">History</a></li>
+          <li><img src="svg/typewriter.svg" alt="" /><a href="">Tasks</a></li>
+          <li>
+            <img src="svg/account-group.svg" alt="" /><a href="">Communities</a>
+          </li>
+        </ul>
+        <ul>
+          <li><img src="svg/cog.svg" alt="" /><a href="">Settings</a></li>
+          <li>
+            <img src="svg/help-circle.svg" alt="" /><a href="">Support</a>
+          </li>
+          <li>
+            <img src="svg/shield-sword.svg" alt="" /><a href="">Security</a>
+          </li>
+        </ul>
       </div>
 
       <div id="sections">
         <div id="projects-title" class="title">Projects</div>
         <div id="projects">
-          <div class="card"><p>cool thing</p></div>
-          <div class="card"><p>cool thing</p></div>
-          <div class="card"><p>cool thing</p></div>
-          <div class="card"><p>cool thing</p></div>
-          <div class="card"><p>cool thing</p></div>
-          <div class="card"><p>cool thing</p></div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="textbox">
+              <strong>Project Name</strong>
+              <p>
+                Brief little description detailing what the project is about.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div id="announcements-title" class="title">Announcements</div>
         <div id="announcements">
           <div class="card">
-            <div>
-              <strong>SOmething</strong>
-              <p>god why</p>
-              <hl></hl>
+            <div class="textbox">
+              <strong>Something Bad Happened</strong>
+              <p>
+                Brief little description detailing what happened in the world.
+              </p>
             </div>
-            <div>
-              <strong>da heck?</strong>
-              <p>poopu</p>
-              <hl></hl>
+            <hr />
+            <div class="textbox">
+              <strong>Something Good Happened</strong>
+              <p>
+                Brief little description detailing what happened in the world.
+              </p>
             </div>
-            <div>
-              <strong>No fr?</strong>
-              <p>Yea i guess...</p>
-              <hl></hl>
+            <hr />
+            <div class="textbox">
+              <strong>Something Bad Happened Again...</strong>
+              <p>
+                Brief little description detailing what happened in the world.
+              </p>
             </div>
           </div>
         </div>
@@ -101,15 +156,27 @@
         <div id="trending">
           <div class="card">
             <div class="profile">
-              <img src="" alt="" />
+              <img
+                class="pfp"
+                src="https://i.pinimg.com/originals/9a/83/70/9a8370e96678c9614a073d28aacba80b.png"
+                alt=""
+              />
               <div class="user">Lorrd poop</div>
             </div>
             <div class="profile">
-              <img src="" alt="" />
+              <img
+                class="pfp"
+                src="https://i.pinimg.com/originals/9a/83/70/9a8370e96678c9614a073d28aacba80b.png"
+                alt=""
+              />
               <div class="user">pooplord</div>
             </div>
             <div class="profile">
-              <img src="" alt="" />
+              <img
+                class="pfp"
+                src="https://i.pinimg.com/originals/9a/83/70/9a8370e96678c9614a073d28aacba80b.png"
+                alt=""
+              />
               <div class="user">pordloop</div>
             </div>
           </div>
